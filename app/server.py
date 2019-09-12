@@ -9,10 +9,11 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Do9Flwiw6KMFP_x7F9cN-nnjQihSIlVa'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ["Bengal","Abyssinian","Birman","British Shorthair","Sphynx","Bombay","Persian","Ragdoll","Siamese","Russian Blue","Maine Coon","Egyptian Mau","Devon Rex","Manx","American Bobtail","American Curl","Cornish Rex","Don Sphynx","Khao Manee","Pixiebob","Japanese Bobtail","Chartreux","Tabby","Burmese","Somali","Tonkinese","Exotic Shorthair","Burmilla","Minskin","Savannah","Nebelung","Singapura","Havana","Oriental Longhair","Oriental Shorthair","Korat","Kurilian Bobtail","American Shorthair","Turkish Angora","Scottish Fold","Lykoi","Balinese","Peterbald","Scottish Fold LongHair","Selkirk Rex","Chausie","Munchkin","Ocicat","British Longhair","SnowShoe","Turkish Van","Siberian","Australian Mist","Toybob","LaPerm","Himalayan","Norwegian Forest Cat","American Wirehair"]
+
 path = Path(__file__).parent
 
 app = Starlette()
